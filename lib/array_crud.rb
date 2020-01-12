@@ -1,35 +1,35 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  mycolors = ["green", "red", "blue", "gray"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  mycolors << ["white"]
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  mycolors.unshift = ["purple"]
 end
 
 def remove_element_from_end_of_array(array)
-  
+  mycolors.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  mycolors.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  mycolors.index_number[2]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  mycolors.[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  mycolors.[-1]
 end
